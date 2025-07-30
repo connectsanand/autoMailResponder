@@ -1,0 +1,24 @@
+<!-- frontend/dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gmail Auto Responder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Gmail Auto Responder</h2>
+
+    <p><strong>Status:</strong> <span id="status">Not Activated ❌</span></p>
+
+    <label for="message">Auto-Response Message:</label><br />
+    <textarea id="message" rows="4" cols="40">Hi, I’m currently away and will get back to you soon.</textarea><br /><br />
+
+    <button id="toggleBtn">Enable Auto-Responder</button>
+    <button id="logoutBtn">Logout</button>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
